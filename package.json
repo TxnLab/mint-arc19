@@ -1,0 +1,29 @@
+{
+  "name": "mint-arc19",
+  "version": "1.0.0",
+  "description": "Minting script for ARC19 NFTs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TxnLab/mint-arc19.git"
+  },
+  "author": "TxnLab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TxnLab/mint-arc19/issues"
+  },
+  "homepage": "https://github.com/TxnLab/mint-arc19#readme",
+  "dependencies": {
+    "@pinata/sdk": "^1.1.25",
+    "algosdk": "^1.15.0",
+    "dotenv": "^16.0.0",
+    "multiformats": "^9.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25"
+  }
+}
